@@ -10,7 +10,7 @@ cat > /home/oracle/scripts/setEnv.sh <<EOF
 export TMP=/tmp
 export TMPDIR=\$TMP
 
-export ORACLE_HOSTNAME=${NODE1_FQ_HOSTNAME}
+export ORACLE_HOSTNAME=${OBS1_FQ_HOSTNAME}
 export ORACLE_BASE=${ORACLE_BASE}
 export ORA_INVENTORY=${ORA_INVENTORY}
 export ORACLE_HOME=\$ORACLE_BASE/${ORACLE_HOME_EXT}
