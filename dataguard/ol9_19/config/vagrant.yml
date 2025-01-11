@@ -15,3 +15,10 @@ node2:
   cpus: 2
   public_ip: 192.168.56.102
   u01_disk: ./ol9_19_dg2_u01.vdi
+
+obs1:
+  vm_name: ol9_19_obs1
+  mem_size: 1024
+  cpus: 1
+  public_ip: 192.168.56.111
+  u01_disk: ./ol9_19_obs1_u01.vdi
