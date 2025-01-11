@@ -10,11 +10,11 @@ params = YAML.load_file '../config/vagrant.yml'
 var_box            = params['shared']['box']
 var_non_rotational = params['shared']['non_rotational']
 
-var_vm_name        = params['node1']['vm_name']
-var_mem_size       = params['node1']['mem_size']
-var_cpus           = params['node1']['cpus']
-var_public_ip      = params['node1']['public_ip']
-var_u01_disk       = params['node1']['u01_disk']
+var_vm_name        = params['obs1']['vm_name']
+var_mem_size       = params['obs1']['mem_size']
+var_cpus           = params['obs1']['cpus']
+var_public_ip      = params['obs1']['public_ip']
+var_u01_disk       = params['obs1']['u01_disk']
 
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
